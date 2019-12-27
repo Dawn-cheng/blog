@@ -21,14 +21,13 @@
 
   @include('layouts._header')
 
-  <div class="container">
+  <div class="container" style="margin-top: 100px;">
 
     @include('shared._messages')
 
     @yield('content')
 
   </div>
-
   @include('layouts._footer')
 </div>
 

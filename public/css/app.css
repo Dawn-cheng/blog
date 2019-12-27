@@ -17305,6 +17305,10 @@ body {
   margin-top: 0px;
 }
 
+.bg-light {
+  background-color: #00b5ad !important;
+}
+
 /* Sticky footer styles */
 
 html {
@@ -17315,15 +17319,16 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  background-color: #1a1b1f;
 }
 
 .footer {
   position: absolute;
-  bottom: 0;
+  bottom: -30px;
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background-color: #000;
+  background-color: #00b5ad;
 }
 
 .footer .container {
@@ -17338,5 +17343,10 @@ body {
 
 .footer .container p a {
   color: inherit;
+}
+
+.height-content {
+  height: 200px;
+  width: 33%;
 }
 

@@ -21,7 +21,6 @@ body {
 }
 
 /* header */
-
 .navbar-static-top {
   border-color: #e7e7e7;
   background-color: #fff;
@@ -30,6 +29,10 @@ body {
   border-bottom: 1px solid #e8e8e8;
   margin-bottom: 40px;
   margin-top: 0px;
+}
+
+.bg-light{
+  background-color: #00b5ad !important;
 }
 
 /* Sticky footer styles */
@@ -41,16 +44,16 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  background-color: #1a1b1f;
 }
 
 .footer {
   position: absolute;
-  bottom: 0;
+  bottom: -30px;
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background-color: #000;
-
+  background-color: #00b5ad;
   .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -65,3 +68,11 @@ body {
     }
   }
 }
+
+.height-content{
+  height: 200px;
+  width: 33%;
+}
+
+
+
