@@ -17305,10 +17305,6 @@ body {
   margin-top: 0px;
 }
 
-.bg-light {
-  background-color: #00b5ad !important;
-}
-
 /* Sticky footer styles */
 
 html {
@@ -17319,7 +17315,6 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  background-color: #1a1b1f;
 }
 
 .footer {

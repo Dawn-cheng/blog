@@ -21,7 +21,7 @@
 
   @include('layouts._header')
 
-  <div class="container" style="margin-top: 100px;">
+  <div>
 
     @include('shared._messages')
 
